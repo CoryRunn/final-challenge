@@ -1,0 +1,112 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/********* Typography *******/
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #a59678;
+}
+
+h1 {
+    font-size: 5.625rem;
+    line-height: 1.2;
+}
+
+span {
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3125rem;
+}
+
+.nav {
+    background: #2e323f;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    margin-bottom: .5em;
+}
+
+ul {
+    margin: 0;
+    padding-left:0;
+}
+
+.nav__item,
+.footer__item {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #a59678;
+}
+
+.nav__link {
+    text-transform: uppercase;
+}
+
+.hero {
+    background: #3b4050;
+    padding: 4em 0;
+}
+
+.hero__text {
+    color: #fff;
+    margin: 1em 0;
+}
+
+.hero__btn{
+    display: inline-block;
+    padding: .75em 2em;
+    background-color: #a59678;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.125rem;
+    margin-top: 1em;
+}
+
+/******** Layout **********/
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
