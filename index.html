@@ -14,24 +14,24 @@
 <body>
     <header>
         <div class="nav">
-            <nav class="container row">
+            <nav class="container nav__flex">
                 <div class="logo">
                     <img src="img/logo.svg" alt="conquering responsive layouts logo" class="logo">
                 </div>
                 <div class="nav__list">
-                    <ul>
+                    <ul class="nav__list--flex">
                         <li class="nav__item"><a href="#" class="nav__link">home</a></li>
                         <li class="nav__item"><a href="#" class="nav__link">about</a></li>   
                         <li class="nav__item"><a href="#" class="nav__link">contact</a></li> 
                         <li class="nav__item"><a href="#" class="nav__link">sign in</a></li> 
-                        <li class="nav__item"><a href="#" class="nav__link">sign up</a></li> 
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--btn">sign up</a></li> 
                     </ul>
                 </div>
             </nav>
         </div>
 
         <section class="hero">
-            <div class="container row">
+            <div class="container hero__flex">
                 <div class="hero__title">
                     <h1><span>Responsive layouts</span> don't have to be a struggle</h1>
                 </div>
@@ -43,44 +43,50 @@
         </section>
     </header>
 
-    <main class="container">
-        <section class="section__one row">
-            <div class="section__one--left">
-                <h2 class="section__titile">Mobile-first</h2>
-                <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam unde cupiditate rem id soluta doloremque eius placeat, quibusdam illum accusantium corporis veritatis fuga?</p>
+    <main>
+        <div class="section__one--background">
+            <div class="container">
+                <section class="section__one section__flex">
+                    <div class="section__one--left section__col">
+                        <h2 class="section__title">Mobile-first</h2>
+                        <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam unde cupiditate rem id soluta doloremque eius placeat, quibusdam illum accusantium corporis veritatis fuga?</p>
+                    </div>
+                    <div class="section__one--middle section__col">
+                        <h2>Efficient</h2>
+                        <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam unde cupiditate rem id soluta doloremque eius placeat, quibusdam illum accusantium corporis veritatis fuga?</p>
+                    </div>
+                    <div class="section__one--right section__col">
+                        <h2>Done right</h2>
+                        <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam unde cupiditate rem id soluta doloremque eius placeat, quibusdam illum accusantium corporis veritatis fuga?</p>
+                    </div>
+                </section>
             </div>
-            <div class="section__one--middle">
-                <h2 class="section__titile">Efficient</h2>
-                <p class="section__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis vel minus repudiandae beatae molestias voluptatem explicabo totam laboriosam impedit quos reiciendis, consectetur earum numquam.</p>
-            </div>
-            <div class="section__one--right">
-                <h2 class="section__titile">Done right</h2>
-                <p class="section__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam saepe, minus expedita autem voluptate cumque blanditiis. Possimus officiis ut, ab culpa unde adipisci?</p>
-            </div>
-        </section>
+        </div>
 
-        <section class="section__two row">
-            <div class="section__two--left">
-                <h2 class="section__title">It doesn't have to be so hard</h2>
-                <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod id rem molestiae assumenda, ipsa illum! Harum vitae iusto eum sed animi quas numquam est, et incidunt saepe obcaecati? Assumenda voluptatibus eligendi sint asperiores laudantium officiis consequuntur quam harum recusandae amet. Nesciunt quas, maxime saepe eveniet neque fuga aspernatur!</p>
-                <img src="img/hero-img.jpg" alt="website design illustration">
-                <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, amet beatae repellendus odit labore possimus. Eos, quibusdam pariatur autem modi molestiae incidunt temporibus, sint omnis natus aliquid, minima voluptatem esse adipisci laboriosam eius amet aut eaque. A quam sit repellendus esse voluptate tempore culpa modi dolor voluptatum. Quis!</p>
-            </div>
-            <div class="section__two--right">
-                <div class="three-steps">
-                    <h3 class="three-steps--title">Break it down</h3>
-                    <p class="three-steps--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex iste corporis omnis assumenda fugiat illum ipsam sint quia!</p>
+        <div class="container">
+            <section class="section__two section__flex">
+                <div class="section__two--left">
+                    <h2>It doesn't have to be so hard</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod id rem molestiae assumenda, ipsa illum! Harum vitae iusto eum sed animi quas numquam est, et incidunt saepe obcaecati? Assumenda voluptatibus eligendi sint asperiores laudantium officiis consequuntur quam harum recusandae amet. Nesciunt quas, maxime saepe eveniet neque fuga aspernatur!</p>
+                    <img src="img/hero-img.jpg" class="website-img" alt="website design illustration">
+                    <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, amet beatae repellendus odit labore possimus. Eos, quibusdam pariatur autem modi molestiae incidunt temporibus, sint omnis natus aliquid, minima voluptatem esse adipisci laboriosam eius amet aut eaque. A quam sit repellendus esse voluptate tempore culpa modi dolor voluptatum. Quis!</p>
                 </div>
-                <div class="three-steps">
-                    <h3 class="three-steps--title">Work your way up</h3>
-                    <p class="three-steps--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex iste corporis omnis assumenda fugiat illum ipsam sint quia!</p>
+                <div class="section__two--right">
+                    <div class="three-steps three-steps__top">
+                        <h3 class="three-steps--title">Break it down</h3>
+                        <p class="three-steps--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex iste corporis omnis assumenda fugiat illum ipsam sint quia!</p>
+                    </div>
+                    <div class="three-steps">
+                        <h3 class="three-steps--title">Work your way up</h3>
+                        <p class="three-steps--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex iste corporis omnis assumenda fugiat illum ipsam sint quia!</p>
+                    </div>
+                    <div class="three-steps">
+                        <h3 class="three-steps--title">Break it down</h3>
+                        <p class="three-steps--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex iste corporis omnis assumenda fugiat illum ipsam sint quia!</p>
+                    </div>
                 </div>
-                <div class="three-steps">
-                    <h3 class="three-steps--title">Break it down</h3>
-                    <p class="three-steps--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ex iste corporis omnis assumenda fugiat illum ipsam sint quia!</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
